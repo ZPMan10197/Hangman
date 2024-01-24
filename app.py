@@ -91,7 +91,7 @@ def play(word):
                 tries -= 1
                 guessed_letters.append(guess)
             else:
-                print("Good job,", guess, "is in the word!")
+                print("Good job,", guess, "is in the word.")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
                 indices = [i for i, letter in enumerate(word) if letter == guess]
