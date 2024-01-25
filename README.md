@@ -4,7 +4,7 @@ This is a simple Python implementation of the classic Hangman game to be played 
 
 ## How to Play
 
-1. Start the game by running `python hangman.py` in your command line interface.
+1. Start the game by running `python3 hangman.py` in your command line interface.
 2. One player enters a word for the other player to guess (or you can modify the code to randomly select a word from a predefined list).
 3. The guessing player then inputs letters one at a time to try to figure out the word.
 4. The game continues until either the word is guessed (win) or the hangman is fully drawn (lose).
